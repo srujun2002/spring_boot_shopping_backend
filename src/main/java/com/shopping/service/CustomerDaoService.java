@@ -17,4 +17,6 @@ public interface CustomerDaoService {
 	
 	public void updateCustomer(Customer customer);
 
+	public void deleteCustomer(String username);
+
 }
